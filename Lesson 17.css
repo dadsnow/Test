@@ -20,15 +20,21 @@ body{
 body{
 	width:475px;
 	height:200px;
+	margin:32px;
+	height:200px;
 	margin:10px;
 }
 
 textarea{
 	border:1px solid green;
+	width:475px;
+	height:300px;
 	width:175px;
 	height:22px;
 	margin:10112px;
 }
+////2332
+//resev
 ////232
 //rv=10
 input{
