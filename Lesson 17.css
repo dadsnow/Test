@@ -12,6 +12,8 @@ span{
 input{
 	margin: 10px;
 }
+body{
+}
 
 textarea{
 	border:1px solid green;
