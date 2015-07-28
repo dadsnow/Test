@@ -1,0 +1,150 @@
+/* CSS Document */
+
+/* початок опису шапки*/
+
+* {
+	padding:0; margin:0;
+}
+
+body {
+	background:url(imges/548517.jpg) center top no-repeat; background-color:#0a1119;
+}
+.main {
+	width:970px; margin:0 auto;
+}
+   .head {
+	   height: 250px;
+   }
+	.head a{
+		font:38px "Arial"; color:#6a1420; text-decoration:none; float:right;  margin: 38px 0 0 30px;
+	}
+		.head a span {
+			color:#e11734;
+		}
+	.menu{
+		list-style: none; background:#2d233e; overflow:hidden; border-radius:15px 15px 0 0 ;
+	}
+.contant-main {
+	background:#f7f7f7; border:1px solid #FFFFFF; overflow:hidden; border-radius:15px 15px;
+}
+		.menu li {
+			float:left; padding: 15px 35px;
+		}
+			.menu li a {
+				font:18px "Century Gothic" ; color:#FFFFFF; text-decoration:none;
+			}
+			.menu li a:hover {
+				font:18px "Century Gothic" ; color:#FFFFFF; text-decoration: underline;
+			}
+		.search-main {
+			float:right; margin:-4px 25px 0 0;
+		}
+		.search-txt {
+			height: 23px; width: 230px; border:1px solid:#FFF; margin: 0 10px 0 0; border-radius: 4px;
+		}
+		.search-btn {
+			position:relative; top:12px;
+		}
+
+/* Кінець опису шапки */		
+
+/* Контент*/
+.content {
+	width:700px; float:left; margin:0 0 0 20px;
+	}
+	.post-main {
+		background:#f8f6f7; border:1px solide #f0d4d4; border-radius: 15px; margin:0 0 30px 0;
+		overflow:hidden;
+	}
+		.post-main h1 {
+			font:normal 24px "Tahoma" ; color:#7d4f66; background:#e7e1e4; border-radius: 15px 15px 0 0 ; padding: 5px 20px 8px 15px; margin:0 0 5px 0;
+		}
+			.post-main h1 a {
+				font:normal 24px "Tahoma" ; color:#7d4f66; text-decoration:none;
+			}
+			.post-main h1 a:hover {
+				font:normal 24px "Tahoma" ; color:#7d4f66; text-decoration:underline;
+			}
+			.post-main h1 span {
+				font:normal 14px "Tahoma" ; color:#7d4f66; text-decoration:none;
+			}
+			
+			.imgstyle {
+				float:left; margin:0 15px 5px 0; 
+			}
+			.post {
+				margin:0 15px 15px 15px;
+			} 
+				.post p {
+					font: 12px "Verdana"; color#000000; margin: 0 0 15px 0;
+				}
+				.post p a {
+					color:#3f282f ; text-decoration:underline;
+				}
+				.post p a:hover {
+					color:#3f282f ; text-decoration:none;
+				}
+/* Кінець контенту*/		
+		
+/*Настройка вікна категорій*/
+.sidebar {
+	width:200px; float:right; margin:0 15px 0 20px;
+}
+	.vidget {
+		background:#e7e1e4; border:1px solid  #d7d3d4; border-radius: 8px; 
+	}
+		.vidget h2 { 
+		font:20px "Century Gothic" ; background:#2d233e; color:#FFFFFF; text-align:center; padding:5px 0 ;border-radius: 8px 8px 0 0;
+		}
+			.vidget ul {
+				list-style:none; padding:25px 15px;
+			}
+				/*налащтування ліній розділення*/
+				.vidget ul li {
+					border-bottom:1px solid #c8bbbd;border-top:1px solid #ffffff; padding:5px 0 5px 20px;
+				}
+				.vidget ul li:first-child {
+					border-top:none;
+				}
+				.vidget ul li:last-child {
+					border-bottom:none;
+				}
+				/*end налащтування ліній розділення*/
+					.vidget ul li a { font:16px "Century Gothic"; color:#5A2526;text-decoration:underline; 
+					}
+					.vidget ul li a:hover { font:16px "Century Gothic";
+color:#5A2526;text-decoration:none; 
+					}
+/*end Настройка вікна категорій*/
+/*налаштування низу*/
+.footer {
+	overflow:hidden; pading:90px 50px; 
+}
+	  
+	.foot-cpu, .foot-menu-kat,.foot-stranicu {
+		float:left; margin: 50px 150px 50px 10px;
+	}
+	.foot-cpu a span {
+		color:#dad5d3;
+	}
+	.foot-cpu p {
+		font:14px "Verdana"; color:#c4c1c0; 
+	}
+	.foot-cpu a{
+		font:28px "Century Gothic"; color:#6a1420; text-decoration:none;   margin:40px 40px 10px 0;
+	}
+	
+		.foot-menu-kat h2 ,.foot-stranicu h2 {
+			font:24px "Century Gothic"; color:#c4c1c0; 
+		}
+		.foot-menu-kat ul,.foot-stranicu ul {
+			list-style:none; 
+		}
+			.foot-menu-kat ul li a ,.foot-stranicu ul li a {
+			font:14px "Verdana"; color:#c4c1c0;
+			}
+			.foot-menu-kat ul li a:hover,.foot-stranicu ul li a:hover {
+			font:14px "Verdana"; color:#c4c1c0; text-decoration:none;
+			}
+			
+/*end налаштування низу*/		
