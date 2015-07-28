@@ -1,18 +1,4 @@
-﻿/* CSS Document */
-
-/* початок опису шапки*/
-
-* {
-	padding:0; margin:0;
-}
-
-body {
-	background:url(imges/548517.jpg) center top no-repeat; background-color:#0a1119;
-r:#6a1420; text-decoration:none; float:right;  margin: 38px 0 0 30px;
-	}
-		.head a span {
-			color:#e11734;
-		}
+﻿
 	.menu{
 		list-style: none; background:#2d233e; overflow:hidden; border-radius:15px 15px 0 0 ;
 	}
