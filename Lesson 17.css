@@ -18,6 +18,12 @@ body{
 	margin:10px;
 }
 
+body{
+	width:475px;
+	height:300px;
+	margin:10px;
+}
+
 textarea{
 	border:1px solid green;
 	width:475px;
