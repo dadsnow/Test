@@ -1,4 +1,4 @@
-/* CSS Document */
+﻿/* CSS Document */
 
 /* початок опису шапки*/
 
@@ -8,15 +8,7 @@
 
 body {
 	background:url(imges/548517.jpg) center top no-repeat; background-color:#0a1119;
-}
-.main {
-	width:970px; margin:0 auto;
-}
-   .head {
-	   height: 250px;
-   }
-	.head a{
-		font:38px "Arial"; color:#6a1420; text-decoration:none; float:right;  margin: 38px 0 0 30px;
+r:#6a1420; text-decoration:none; float:right;  margin: 38px 0 0 30px;
 	}
 		.head a span {
 			color:#e11734;
